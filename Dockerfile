@@ -1,6 +1,6 @@
-FROM jenkins/jenkins:2.107.3
+FROM jenkins/jenkins:lts
 
-MAINTAINER Nick Griffin, <nicholas.griffin>
+MAINTAINER THEOUS CREO
 
 ENV GITLAB_HOST_NAME gitlab
 ENV GITLAB_PORT 80
